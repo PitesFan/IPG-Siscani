@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    line-height: 1.5;
+    color: #ffffff;
+    background: linear-gradient(to bottom, #006eff, #7baefa);
+}
+
+/* General styles */
+.page-container {
+    width: 480px;
+    max-width: 100%;
+    padding: 16px;
+    margin: 0 auto;
+}
+
+section {
+    margin-bottom: 32px;
+}
+
+section .section-title {
+    font-size: 1.5rem;
+    margin-bottom: 16px;
+}
+
+/* Header styles */
+
+header {
+    background-image: url('images/header-img.jpg');
+    height: 250px;
+    background-position: center center;
+    background-size: cover;
+}
+
+/* Profile styles */
+
+.profile {
+    text-align: center;
+    margin-top: -75px;
+}
+
+.profile-image {
+    width: 200px;
+    height: 200px;
+    border: solid 3px #ffffff;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.profile-image img {
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+.profile-details {
+    font-size: 1rem;
+    margin: 24px 0;
+}
+
+.profile-details h1 {
+    font-size: 2rem;
+    margin-bottom: 16px;
+}
+
+.tags span {
+    font-size: 0.875rem;
+    background-color: #3d78dd;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+/* Gallery styles */
+
+.gallery {
+    font-size: 1rem;
+    background-color: #3d78dd;
+    border-radius: 5px;
+    margin-bottom: 16px;
+    position: relative;
+    overflow: hidden;
+}
+
+.gallery img {
+    max-width: 100%;
+}
+
+.gallery .gallery-title {
+    padding: 16px;
+}
+
+.gallery-details {
+    display: none;
+    background-color: #3d64a6;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 16px;
+}
+
+.gallery-details .btn-outline {
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 8px;
+    border: solid 2px #ffffff;
+    position: absolute;
+    left: 16px;
+    right: 16px;
+    bottom: 16px;
+    border-radius: 5px;
+}
+
+.gallery-details .btn-outline:hover {
+    color: #3d64a6;
+    background-color: #ffffff;
+}
+
+.gallery:hover .gallery-details {
+    display: block;
+}
+
+/* Profile links style */
+
+.profile-links {
+    list-style: none;
+}
+
+.profile-links li a {
+    font-size: 1rem;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #3d64a6;
+    padding: 16px;
+    display: block;
+    margin: 8px 0;
+    border-radius: 5px;
+}
+
+.profile-links li a:hover {
+    background-color: #2b579e;
+}
+
+/* Footer style */
+footer {
+    font-size: 1rem;
+    text-align: center;
+    padding: 16px 0;
+}
+
+@media screen and (min-width:768px) {
+
+    .gallerys {
+        overflow: hidden;
+    }
+}
